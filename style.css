@@ -1,0 +1,78 @@
+/* selecting by tagname */
+p{
+ color:blue;
+ font-size: 3vw;
+}
+/* selecting by id */
+#chile{
+ color: aqua;
+ border: 5px solid gold;
+}
+/* selecting by class */
+.lucky{
+ color: forestgreen;
+ border: 5px dashed fuchsia;
+}
+.body{
+ background-color: gray;
+}
+
+/* background image css */
+.img{
+width: 100%;
+height: 50vh;
+background-image: url(../img/animal2.jpg);
+background-position: center;
+background-repeat: no-repeat;
+}
+
+
+/* styling a video */
+
+.vid{
+ width: 500px;
+ height: fit-content;
+}
+
+
+a{
+ text-decoration: none;
+ font-size: 3vr;
+ background-color: blue;
+ padding: 1rem;
+ border-radius: 20%;
+}
+
+/* padding/margin: top right bottom left */
+/* padding/margin: top/bottom left/right */
+/* border radius: 8px */
+/*  */
+
+
+
+
+
+/* code for various screen sizes */
+@media(max-width: 800px) {
+.body{
+ background-color: lightcoral;
+}
+p{
+ color: darkgoldenrod;
+font-size: calc(18% + 5vh);
+}
+}
+@media(max-width: 650px){
+.body{
+background-color: cadetblue;
+}
+}
+@media(max-width: 100%){
+ .img{
+  background-attachment: inherit;
+ }
+}
+
+
+
+
